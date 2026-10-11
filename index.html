@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mapa mental: Bases de datos NoSQL</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>¿Qué tipo de NoSQL necesito?</h1>
+    <p class="sub">Act1_Base De Datos A Gran Escala</p>
+  </header>
+
+  <div class="wrap">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2200 1300" width="2200" height="1300" role="img" aria-label="Mapa mental: bases de datos NoSQL" font-family="'Segoe UI', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif">
+      <rect width="2200" height="1300" fill="#F7F9FB"/>
+
+      <!-- ===================== CLAVE-VALOR ===================== -->
+      <g class="branch" data-branch="Clave-valor">
+        <path d="M975,650 C932.5,650 932.5,334 890.0,334" fill="none" stroke="#BE3455" stroke-width="12" stroke-linecap="round"/>
+        <path d="M686.0,334 C681.5,334 681.5,82 677.0,82" fill="none" stroke="#BE3455" stroke-width="4.5" stroke-linecap="round"/>
+        <path d="M467.0,82 C446.5,82 446.5,82 426,82" fill="none" stroke="#BE3455" stroke-width="2.5" stroke-linecap="round"/>
+        <rect x="16" y="29.0" width="410" height="106" rx="12" fill="#FBE9EE" stroke="#BE3455" stroke-opacity=".35"/>
+        <rect x="420" y="29.0" width="6" height="106" rx="3" fill="#BE3455"/>
+        <text font-size="23" fill="#1F2937">
+          <tspan x="32" y="59.0">Guarda valores opacos asociados</tspan>
+          <tspan x="32" y="89.0">a una clave, como un gran mapa</tspan>
+          <tspan x="32" y="119.0">hash distribuido.</tspan>
+        </text>
+        <rect x="467.0" y="51.0" width="210" height="62" rx="31" fill="#FFFFFF" stroke="#BE3455" stroke-width="3.5"/>
+        <text font-size="20" font-weight="700" fill="#BE3455" text-anchor="middle"><tspan x="572" y="89">Concepto</tspan></text>
+
+        <path d="M686.0,334 C681.5,334 681.5,208 677.0,208" fill="none" stroke="#BE3455" stroke-width="4.5" stroke-linecap="round"/>
+        <path d="M467.0,208 C446.5,208 446.5,208 426,208" fill="none" stroke="#BE3455" stroke-width="2.5" stroke-linecap="round"/>
+        <rect x="16" y="155.0" width="410" height="106" rx="12" fill="#FBE9EE" stroke="#BE3455" stroke-opacity=".35"/>
+        <rect x="420" y="155.0" width="6" height="106" rx="3" fill="#BE3455"/>
+        <text font-size="23" fill="#1F2937">
+          <tspan x="32" y="185.0">Muy simple y rápida · alta</tspan>
+          <tspan x="32" y="215.0">disponibilidad por replicación ·</tspan>
+          <tspan x="32" y="245.0">hashing consistente.</tspan>
+        </text>
+        <rect x="467.0" y="177.0" width="210" height="62" rx="31" fill="#FFFFFF" stroke="#BE3455" stroke-width="3.5"/>
+        <text font-size="20" font-weight="700" fill="#BE3455" text-anchor="middle"><tspan x="572" y="215">Características</tspan></text>
+
+        <path d="M686.0,334 C681.5,334 681.5,334 677.0,334" fill="none" stroke="#BE3455" stroke-width="4.5" stroke-linecap="round"/>
+        <path d="M467.0,334 C446.5,334 446.5,334 426,334" fill="none" stroke="#BE3455" stroke-width="2.5" stroke-linecap="round"/>
+        <rect x="16" y="281.0" width="410" height="106" rx="12" fill="#FBE9EE" stroke="#BE3455" stroke-opacity=".35"/>
+        <rect x="420" y="281.0" width="6" height="106" rx="3" fill="#BE3455"/>
+        <text font-size="23" fill="#1F2937">
+          <tspan x="32" y="311.0">Pares clave → valor repartidos en</tspan>
+          <tspan x="32" y="341.0">cubetas (buckets) entre varios</tspan>
+          <tspan x="32" y="371.0">nodos.</tspan>
+        </text>
+        <rect x="467.0" y="303.0" width="210" height="62" rx="31" fill="#FFFFFF" stroke="#BE3455" stroke-width="3.5"/>
+        <text font-size="20" font-weight="700" fill="#BE3455" text-anchor="middle">
+          <tspan x="572" y="329">Organización de</tspan>
+          <tspan x="572" y="353">los datos</tspan>
+        </text>
+
+        <path d="M686.0,334 C681.5,334 681.5,460 677.0,460" fill="none" stroke="#BE3455" stroke-width="4.5" stroke-linecap="round"/>
+        <path d="M467.0,460 C446.5,460 446.5,460 426,460" fill="none" stroke="#BE3455" stroke-width="2.5" stroke-linecap="round"/>
+        <rect x="16" y="422.0" width="410" height="76" rx="12" fill="#FBE9EE" stroke="#BE3455" stroke-opacity=".35"/>
+        <rect x="420" y="422.0" width="6" height="76" rx="3" fill="#BE3455"/>
+        <text font-size="23" fill="#1F2937">
+          <tspan x="32" y="452.0">Carrito de compras y sesiones de</tspan>
+          <tspan x="32" y="482.0">usuario.</tspan>
+        </text>
+        <rect x="467.0" y="429.0" width="210" height="62" rx="31" fill="#FFFFFF" stroke="#BE3455" stroke-width="3.5"/>
+        <text font-size="20" font-weight="700" fill="#BE3455" text-anchor="middle">
+          <tspan x="572" y="455">Ejemplo de</tspan>
+          <tspan x="572" y="479">aplicación</tspan>
+        </text>
+
+        <path d="M686.0,334 C681.5,334 681.5,586 677.0,586" fill="none" stroke="#BE3455" stroke-width="4.5" stroke-linecap="round"/>
+        <path d="M467.0,586 C446.5,586 446.5,586 426,586" fill="none" stroke="#BE3455" stroke-width="2.5" stroke-linecap="round"/>
+        <rect x="16" y="563.0" width="410" height="46" rx="12" fill="#FBE9EE" stroke="#BE3455" stroke-opacity=".35"/>
+        <rect x="420" y="563.0" width="6" height="46" rx="3" fill="#BE3455"/>
+        <text font-size="23" fill="#1F2937"><tspan x="32" y="593.0">Redis (también Riak).</tspan></text>
+        <rect x="467.0" y="555.0" width="210" height="62" rx="31" fill="#FFFFFF" stroke="#BE3455" stroke-width="3.5"/>
+        <text font-size="20" font-weight="700" fill="#BE3455" text-anchor="middle">
+          <tspan x="572" y="581">Tecnología</tspan>
+          <tspan x="572" y="605">representativa</tspan>
+        </text>
+
+        <rect x="686.0" y="296.0" width="204" height="76" rx="38" fill="#BE3455"/>
+        <text x="788" y="344" font-size="29" font-weight="700" fill="#FFFFFF" text-anchor="middle">Clave-valor</text>
+      </g>
+
+      <!-- ===================== DOCUMENTOS ===================== -->
+      <g class="branch" data-branch="Documentos">
+        <path d="M1225,650 C1267.5,650 1267.5,334 1310.0,334" fill="none" stroke="#1F6FB2" stroke-width="12" stroke-linecap="round"/>
+        <path d="M1514.0,334 C1518.5,334 1518.5,82 1523.0,82" fill="none" stroke="#1F6FB2" stroke-width="4.5" stroke-linecap="round"/>
+        <path d="M1733.0,82 C1753.5,82 1753.5,82 1774,82" fill="none" stroke="#1F6FB2" stroke-width="2.5" stroke-linecap="round"/>
+        <rect x="1774" y="29.0" width="410" height="106" rx="12" fill="#E6F0F9" stroke="#1F6FB2" stroke-opacity=".35"/>
+        <rect x="1774" y="29.0" width="6" height="106" rx="3" fill="#1F6FB2"/>
+        <text font-size="23" fill="#1F2937">
+          <tspan x="1796" y="59.0">Almacena y recupera documentos</tspan>
+          <tspan x="1796" y="89.0">tipo JSON o XML, como un</tspan>
+          <tspan x="1796" y="119.0">archivero electrónico.</tspan>
+        </text>
+        <rect x="1523.0" y="51.0" width="210" height="62" rx="31" fill="#FFFFFF" stroke="#1F6FB2" stroke-width="3.5"/>
+        <text font-size="20" font-weight="700" fill="#1F6FB2" text-anchor="middle"><tspan x="1628" y="89">Concepto</tspan></text>
+
+        <path d="M1514.0,334 C1518.5,334 1518.5,208 1523.0,208" fill="none" stroke="#1F6FB2" stroke-width="4.5" stroke-linecap="round"/>
+        <path d="M1733.0,208 C1753.5,208 1753.5,208 1774,208" fill="none" stroke="#1F6FB2" stroke-width="2.5" stroke-linecap="round"/>
+        <rect x="1774" y="155.0" width="410" height="106" rx="12" fill="#E6F0F9" stroke="#1F6FB2" stroke-opacity=".35"/>
+        <rect x="1774" y="155.0" width="6" height="106" rx="3" fill="#1F6FB2"/>
+        <text font-size="23" fill="#1F2937">
+          <tspan x="1796" y="185.0">Esquema flexible · índices por</tspan>
+          <tspan x="1796" y="215.0">atributos · escala horizontal ·</tspan>
+          <tspan x="1796" y="245.0">transacciones por documento.</tspan>
+        </text>
+        <rect x="1523.0" y="177.0" width="210" height="62" rx="31" fill="#FFFFFF" stroke="#1F6FB2" stroke-width="3.5"/>
+        <text font-size="20" font-weight="700" fill="#1F6FB2" text-anchor="middle"><tspan x="1628" y="215">Características</tspan></text>
+
+        <path d="M1514.0,334 C1518.5,334 1518.5,334 1523.0,334" fill="none" stroke="#1F6FB2" stroke-width="4.5" stroke-linecap="round"/>
+        <path d="M1733.0,334 C1753.5,334 1753.5,334 1774,334" fill="none" stroke="#1F6FB2" stroke-width="2.5" stroke-linecap="round"/>
+        <rect x="1774" y="281.0" width="410" height="106" rx="12" fill="#E6F0F9" stroke="#1F6FB2" stroke-opacity=".35"/>
+        <rect x="1774" y="281.0" width="6" height="106" rx="3" fill="#1F6FB2"/>
+        <text font-size="23" fill="#1F2937">
+          <tspan x="1796" y="311.0">Mapas y listas anidados en</tspan>
+          <tspan x="1796" y="341.0">jerarquías; datos relacionados</tspan>
+          <tspan x="1796" y="371.0">incrustados o referenciados.</tspan>
+        </text>
+        <rect x="1523.0" y="303.0" width="210" height="62" rx="31" fill="#FFFFFF" stroke="#1F6FB2" stroke-width="3.5"/>
+        <text font-size="20" font-weight="700" fill="#1F6FB2" text-anchor="middle">
+          <tspan x="1628" y="329">Organización de</tspan>
+          <tspan x="1628" y="353">los datos</tspan>
+        </text>
+
+        <path d="M1514.0,334 C1518.5,334 1518.5,460 1523.0,460" fill="none" stroke="#1F6FB2" stroke-width="4.5" stroke-linecap="round"/>
+        <path d="M1733.0,460 C1753.5,460 1753.5,460 1774,460" fill="none" stroke="#1F6FB2" stroke-width="2.5" stroke-linecap="round"/>
+        <rect x="1774" y="422.0" width="410" height="76" rx="12" fill="#E6F0F9" stroke="#1F6FB2" stroke-opacity=".35"/>
+        <rect x="1774" y="422.0" width="6" height="76" rx="3" fill="#1F6FB2"/>
+        <text font-size="23" fill="#1F2937">
+          <tspan x="1796" y="452.0">Catálogo de productos y gestión de</tspan>
+          <tspan x="1796" y="482.0">contenidos.</tspan>
+        </text>
+        <rect x="1523.0" y="429.0" width="210" height="62" rx="31" fill="#FFFFFF" stroke="#1F6FB2" stroke-width="3.5"/>
+        <text font-size="20" font-weight="700" fill="#1F6FB2" text-anchor="middle">
+          <tspan x="1628" y="455">Ejemplo de</tspan>
+          <tspan x="1628" y="479">aplicación</tspan>
+        </text>
+
+        <path d="M1514.0,334 C1518.5,334 1518.5,586 1523.0,586" fill="none" stroke="#1F6FB2" stroke-width="4.5" stroke-linecap="round"/>
+        <path d="M1733.0,586 C1753.5,586 1753.5,586 1774,586" fill="none" stroke="#1F6FB2" stroke-width="2.5" stroke-linecap="round"/>
+        <rect x="1774" y="563.0" width="410" height="46" rx="12" fill="#E6F0F9" stroke="#1F6FB2" stroke-opacity=".35"/>
+        <rect x="1774" y="563.0" width="6" height="46" rx="3" fill="#1F6FB2"/>
+        <text font-size="23" fill="#1F2937"><tspan x="1796" y="593.0">MongoDB (también CouchDB).</tspan></text>
+        <rect x="1523.0" y="555.0" width="210" height="62" rx="31" fill="#FFFFFF" stroke="#1F6FB2" stroke-width="3.5"/>
+        <text font-size="20" font-weight="700" fill="#1F6FB2" text-anchor="middle">
+          <tspan x="1628" y="581">Tecnología</tspan>
+          <tspan x="1628" y="605">representativa</tspan>
+        </text>
+
+        <rect x="1310.0" y="296.0" width="204" height="76" rx="38" fill="#1F6FB2"/>
+        <text x="1412" y="344" font-size="29" font-weight="700" fill="#FFFFFF" text-anchor="middle">Documentos</text>
+      </g>
+
+      <!-- ===================== COLUMNAS ===================== -->
+      <g class="branch" data-branch="Columnas">
+        <path d="M975,650 C932.5,650 932.5,966 890.0,966" fill="none" stroke="#A16207" stroke-width="12" stroke-linecap="round"/>
+        <path d="M686.0,966 C681.5,966 681.5,716 677.0,716" fill="none" stroke="#A16207" stroke-width="4.5" stroke-linecap="round"/>
+        <path d="M467.0,716 C446.5,716 446.5,716 426,716" fill="none" stroke="#A16207" stroke-width="2.5" stroke-linecap="round"/>
+        <rect x="16" y="663.0" width="410" height="106" rx="12" fill="#FBF1DC" stroke="#A16207" stroke-opacity=".35"/>
+        <rect x="420" y="663.0" width="6" height="106" rx="3" fill="#A16207"/>
+        <text font-size="23" fill="#1F2937">
+          <tspan x="32" y="693.0">Tabla dispersa cuyas filas tienen</tspan>
+          <tspan x="32" y="723.0">columnas flexibles; inspirada en</tspan>
+          <tspan x="32" y="753.0">BigTable de Google.</tspan>
+        </text>
+        <rect x="467.0" y="685.0" width="210" height="62" rx="31" fill="#FFFFFF" stroke="#A16207" stroke-width="3.5"/>
+        <text font-size="20" font-weight="700" fill="#A16207" text-anchor="middle"><tspan x="572" y="723">Concepto</tspan></text>
+
+        <path d="M686.0,966 C681.5,966 681.5,842 677.0,842" fill="none" stroke="#A16207" stroke-width="4.5" stroke-linecap="round"/>
+        <path d="M467.0,842 C446.5,842 446.5,842 426,842" fill="none" stroke="#A16207" stroke-width="2.5" stroke-linecap="round"/>
+        <rect x="16" y="789.0" width="410" height="106" rx="12" fill="#FBF1DC" stroke="#A16207" stroke-opacity=".35"/>
+        <rect x="420" y="789.0" width="6" height="106" rx="3" fill="#A16207"/>
+        <text font-size="23" fill="#1F2937">
+          <tspan x="32" y="819.0">Gran escala y distribución · alta</tspan>
+          <tspan x="32" y="849.0">carga de escritura · sin joins</tspan>
+          <tspan x="32" y="879.0">(almacén agregado).</tspan>
+        </text>
+        <rect x="467.0" y="811.0" width="210" height="62" rx="31" fill="#FFFFFF" stroke="#A16207" stroke-width="3.5"/>
+        <text font-size="20" font-weight="700" fill="#A16207" text-anchor="middle"><tspan x="572" y="849">Características</tspan></text>
+
+        <path d="M686.0,966 C681.5,966 681.5,968 677.0,968" fill="none" stroke="#A16207" stroke-width="4.5" stroke-linecap="round"/>
+        <path d="M467.0,968 C446.5,968 446.5,968 426,968" fill="none" stroke="#A16207" stroke-width="2.5" stroke-linecap="round"/>
+        <rect x="16" y="915.0" width="410" height="106" rx="12" fill="#FBF1DC" stroke="#A16207" stroke-opacity=".35"/>
+        <rect x="420" y="915.0" width="6" height="106" rx="3" fill="#A16207"/>
+        <text font-size="23" fill="#1F2937">
+          <tspan x="32" y="945.0">Cada fila es una entidad; columnas</tspan>
+          <tspan x="32" y="975.0">en familias; la clave de partición</tspan>
+          <tspan x="32" y="1005.0">reparte los datos.</tspan>
+        </text>
+        <rect x="467.0" y="937.0" width="210" height="62" rx="31" fill="#FFFFFF" stroke="#A16207" stroke-width="3.5"/>
+        <text font-size="20" font-weight="700" fill="#A16207" text-anchor="middle">
+          <tspan x="572" y="963">Organización de</tspan>
+          <tspan x="572" y="987">los datos</tspan>
+        </text>
+
+        <path d="M686.0,966 C681.5,966 681.5,1094 677.0,1094" fill="none" stroke="#A16207" stroke-width="4.5" stroke-linecap="round"/>
+        <path d="M467.0,1094 C446.5,1094 446.5,1094 426,1094" fill="none" stroke="#A16207" stroke-width="2.5" stroke-linecap="round"/>
+        <rect x="16" y="1056.0" width="410" height="76" rx="12" fill="#FBF1DC" stroke="#A16207" stroke-opacity=".35"/>
+        <rect x="420" y="1056.0" width="6" height="76" rx="3" fill="#A16207"/>
+        <text font-size="23" fill="#1F2937">
+          <tspan x="32" y="1086.0">Registro masivo de eventos y</tspan>
+          <tspan x="32" y="1116.0">actividad de usuarios.</tspan>
+        </text>
+        <rect x="467.0" y="1063.0" width="210" height="62" rx="31" fill="#FFFFFF" stroke="#A16207" stroke-width="3.5"/>
+        <text font-size="20" font-weight="700" fill="#A16207" text-anchor="middle">
+          <tspan x="572" y="1089">Ejemplo de</tspan>
+          <tspan x="572" y="1113">aplicación</tspan>
+        </text>
+
+        <path d="M686.0,966 C681.5,966 681.5,1220 677.0,1220" fill="none" stroke="#A16207" stroke-width="4.5" stroke-linecap="round"/>
+        <path d="M467.0,1220 C446.5,1220 446.5,1220 426,1220" fill="none" stroke="#A16207" stroke-width="2.5" stroke-linecap="round"/>
+        <rect x="16" y="1197.0" width="410" height="46" rx="12" fill="#FBF1DC" stroke="#A16207" stroke-opacity=".35"/>
+        <rect x="420" y="1197.0" width="6" height="46" rx="3" fill="#A16207"/>
+        <text font-size="23" fill="#1F2937"><tspan x="32" y="1227.0">Apache Cassandra.</tspan></text>
+        <rect x="467.0" y="1189.0" width="210" height="62" rx="31" fill="#FFFFFF" stroke="#A16207" stroke-width="3.5"/>
+        <text font-size="20" font-weight="700" fill="#A16207" text-anchor="middle">
+          <tspan x="572" y="1215">Tecnología</tspan>
+          <tspan x="572" y="1239">representativa</tspan>
+        </text>
+
+        <rect x="686.0" y="928.0" width="204" height="76" rx="38" fill="#A16207"/>
+        <text x="788" y="976" font-size="29" font-weight="700" fill="#FFFFFF" text-anchor="middle">Columnas</text>
+      </g>
+
+      <!-- ===================== GRAFOS ===================== -->
+      <g class="branch" data-branch="Grafos">
+        <path d="M1225,650 C1267.5,650 1267.5,966 1310.0,966" fill="none" stroke="#2F855A" stroke-width="12" stroke-linecap="round"/>
+        <path d="M1514.0,966 C1518.5,966 1518.5,716 1523.0,716" fill="none" stroke="#2F855A" stroke-width="4.5" stroke-linecap="round"/>
+        <path d="M1733.0,716 C1753.5,716 1753.5,716 1774,716" fill="none" stroke="#2F855A" stroke-width="2.5" stroke-linecap="round"/>
+        <rect x="1774" y="663.0" width="410" height="106" rx="12" fill="#E4F3EA" stroke="#2F855A" stroke-opacity=".35"/>
+        <rect x="1774" y="663.0" width="6" height="106" rx="3" fill="#2F855A"/>
+        <text font-size="23" fill="#1F2937">
+          <tspan x="1796" y="693.0">Base de datos operacional que</tspan>
+          <tspan x="1796" y="723.0">expone un modelo de nodos y</tspan>
+          <tspan x="1796" y="753.0">relaciones.</tspan>
+        </text>
+        <rect x="1523.0" y="685.0" width="210" height="62" rx="31" fill="#FFFFFF" stroke="#2F855A" stroke-width="3.5"/>
+        <text font-size="20" font-weight="700" fill="#2F855A" text-anchor="middle"><tspan x="1628" y="723">Concepto</tspan></text>
+
+        <path d="M1514.0,966 C1518.5,966 1518.5,842 1523.0,842" fill="none" stroke="#2F855A" stroke-width="4.5" stroke-linecap="round"/>
+        <path d="M1733.0,842 C1753.5,842 1753.5,842 1774,842" fill="none" stroke="#2F855A" stroke-width="2.5" stroke-linecap="round"/>
+        <rect x="1774" y="789.0" width="410" height="106" rx="12" fill="#E4F3EA" stroke="#2F855A" stroke-opacity=".35"/>
+        <rect x="1774" y="789.0" width="6" height="106" rx="3" fill="#2F855A"/>
+        <text font-size="23" fill="#1F2937">
+          <tspan x="1796" y="819.0">Relaciones de primera clase ·</tspan>
+          <tspan x="1796" y="849.0">adyacencia sin índices · recorridos</tspan>
+          <tspan x="1796" y="879.0">rápidos · ACID.</tspan>
+        </text>
+        <rect x="1523.0" y="811.0" width="210" height="62" rx="31" fill="#FFFFFF" stroke="#2F855A" stroke-width="3.5"/>
+        <text font-size="20" font-weight="700" fill="#2F855A" text-anchor="middle"><tspan x="1628" y="849">Características</tspan></text>
+
+        <path d="M1514.0,966 C1518.5,966 1518.5,968 1523.0,968" fill="none" stroke="#2F855A" stroke-width="4.5" stroke-linecap="round"/>
+        <path d="M1733.0,968 C1753.5,968 1753.5,968 1774,968" fill="none" stroke="#2F855A" stroke-width="2.5" stroke-linecap="round"/>
+        <rect x="1774" y="915.0" width="410" height="106" rx="12" fill="#E4F3EA" stroke="#2F855A" stroke-opacity=".35"/>
+        <rect x="1774" y="915.0" width="6" height="106" rx="3" fill="#2F855A"/>
+        <text font-size="23" fill="#1F2937">
+          <tspan x="1796" y="945.0">Nodos con etiquetas y</tspan>
+          <tspan x="1796" y="975.0">propiedades; relaciones con</tspan>
+          <tspan x="1796" y="1005.0">nombre, dirección y propiedades.</tspan>
+        </text>
+        <rect x="1523.0" y="937.0" width="210" height="62" rx="31" fill="#FFFFFF" stroke="#2F855A" stroke-width="3.5"/>
+        <text font-size="20" font-weight="700" fill="#2F855A" text-anchor="middle">
+          <tspan x="1628" y="963">Organización de</tspan>
+          <tspan x="1628" y="987">los datos</tspan>
+        </text>
+
+        <path d="M1514.0,966 C1518.5,966 1518.5,1094 1523.0,1094" fill="none" stroke="#2F855A" stroke-width="4.5" stroke-linecap="round"/>
+        <path d="M1733.0,1094 C1753.5,1094 1753.5,1094 1774,1094" fill="none" stroke="#2F855A" stroke-width="2.5" stroke-linecap="round"/>
+        <rect x="1774" y="1056.0" width="410" height="76" rx="12" fill="#E4F3EA" stroke="#2F855A" stroke-opacity=".35"/>
+        <rect x="1774" y="1056.0" width="6" height="76" rx="3" fill="#2F855A"/>
+        <text font-size="23" fill="#1F2937">
+          <tspan x="1796" y="1086.0">Redes sociales, recomendaciones</tspan>
+          <tspan x="1796" y="1116.0">y detección de fraude.</tspan>
+        </text>
+        <rect x="1523.0" y="1063.0" width="210" height="62" rx="31" fill="#FFFFFF" stroke="#2F855A" stroke-width="3.5"/>
+        <text font-size="20" font-weight="700" fill="#2F855A" text-anchor="middle">
+          <tspan x="1628" y="1089">Ejemplo de</tspan>
+          <tspan x="1628" y="1113">aplicación</tspan>
+        </text>
+
+        <path d="M1514.0,966 C1518.5,966 1518.5,1220 1523.0,1220" fill="none" stroke="#2F855A" stroke-width="4.5" stroke-linecap="round"/>
+        <path d="M1733.0,1220 C1753.5,1220 1753.5,1220 1774,1220" fill="none" stroke="#2F855A" stroke-width="2.5" stroke-linecap="round"/>
+        <rect x="1774" y="1197.0" width="410" height="46" rx="12" fill="#E4F3EA" stroke="#2F855A" stroke-opacity=".35"/>
+        <rect x="1774" y="1197.0" width="6" height="46" rx="3" fill="#2F855A"/>
+        <text font-size="23" fill="#1F2937"><tspan x="1796" y="1227.0">Neo4j.</tspan></text>
+        <rect x="1523.0" y="1189.0" width="210" height="62" rx="31" fill="#FFFFFF" stroke="#2F855A" stroke-width="3.5"/>
+        <text font-size="20" font-weight="700" fill="#2F855A" text-anchor="middle">
+          <tspan x="1628" y="1215">Tecnología</tspan>
+          <tspan x="1628" y="1239">representativa</tspan>
+        </text>
+
+        <rect x="1310.0" y="928.0" width="204" height="76" rx="38" fill="#2F855A"/>
+        <text x="1412" y="976" font-size="29" font-weight="700" fill="#FFFFFF" text-anchor="middle">Grafos</text>
+      </g>
+
+      <!-- ===================== NODO CENTRAL ===================== -->
+      <ellipse cx="1100" cy="650" rx="140" ry="82" fill="#14213D"/>
+      <text x="1100" y="636" font-size="34" font-weight="700" fill="#FFFFFF" text-anchor="middle">Bases de datos</text>
+      <text x="1100" y="676" font-size="40" font-weight="800" fill="#FFFFFF" text-anchor="middle">NoSQL</text>
+      <text x="1100" y="710" font-size="17" fill="#C7D2E5" text-anchor="middle" font-style="italic">Not Only SQL</text>
+    </svg>
+  </div>
+
+  <footer>
+    Margarito Cisneros Noyola / 10/10/2026
+  </footer>
+</body>
+</html>

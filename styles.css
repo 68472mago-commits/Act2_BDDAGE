@@ -1,0 +1,63 @@
+:root {
+  --bg: #F7F9FB;
+  --ink: #14213D;
+  --muted: #5B6578;
+}
+
+html,
+body {
+  margin: 0;
+  background-color: chocolate;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Segoe UI", "Helvetica Neue", Arial, "DejaVu Sans", sans-serif;
+}
+
+header {
+  padding: 20px 28px 6px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+p.sub {
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: .92rem;
+  max-width: 70ch;
+}
+
+.wrap {
+  padding: 8px 12px 28px;
+  overflow-x: auto;
+}
+
+.wrap svg {
+  width: 100%;
+  min-width: 900px;
+  height: auto;
+  display: block;
+}
+
+.branch {
+  transition: opacity .2s;
+}
+
+.wrap:has(.branch:hover) .branch:not(:hover) {
+  opacity: .25;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .branch {
+    transition: none;
+  }
+}
+
+footer {
+  padding: 0 28px 24px;
+  color: var(--muted);
+  font-size: .82rem;
+}
